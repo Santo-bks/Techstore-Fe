@@ -1,0 +1,283 @@
+/* General Styles */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+
+
+/* Navbar */
+.navbar {
+  background-color: #2196F3;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar .search-bar {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.navbar-brand, .h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+/* Slider */
+.slider-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+/* Categories */
+.category-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.category-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.category-item p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Products */
+.product-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.product-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.product-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-item button {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 15px;
+}
+
+.footer-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color:#777;
+}
+ 
+  
+  /* serach bar */
+  .search-bar {
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    padding: 8px 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar:focus {
+    outline: none;
+  }
+  
+  .nav-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .btn-white {
+    border-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+  /* carousel  */
+  .carousel-inner img {
+    width: 100%;
+    height: auto; 
+    border: 2px solid #000;
+    border-radius: 10px;
+    max-height: 400px;
+    max-width: 70%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 5px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; 
+    border: 2px solid #000;
+    border-radius: 10px;
+    max-height: 400px;
+    max-width: 70%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* Tombol navigasi sebelumnya dan berikutnya */
+.carousel-control-prev, .carousel-control-next {
+  background-color: transparent; /* Tidak ada latar belakang */
+  border: none; /* Menghapus border tombol */
+  padding: 10px; /* Menambah padding untuk membuat tombol cukup besar */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Memastikan tombol berada di atas gambar */
+}
+
+/* Ikon tombol navigasi */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black; /* Ikon berwarna hitam */
+  border-radius: 50%; /* Membuat ikon berbentuk bulat */
+  width: 30px; /* Ukuran ikon */
+  height: 30px; /* Ukuran ikon */
+}
+
+  /* section kategori barang */
+  .category-section, .flash-sale-section, .product-section {
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+  
+  .category-item, .brand-item {
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+
+   .category-item {
+    width: 100%;
+    height: 100%;
+   }
+
+   .brand-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    position: relative;
+  }
+
+  .flash-sale-product, .product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-img {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    object-fit: contain;
+    
+  }
+
+  .flash-sale-product-img, .product-img, .brand-img  {
+    width: 100%;
+    height: auto;
+  }
+  
+  .flash-sale-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Login | Tech Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Techstore/FrontEnd/Style_css/Login_Registrasi/Login.css"/>
+</head>
+<body class="bg-white flex items-center justify-center min-h-screen">
+    <div class="text-center">
+        <h1 class="title">TECH STORE</h1>
+        <div class="form-container p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center">
+            
+            <!-- Gambar berada di sebelah kiri -->
+            <img src="/Techstore/FrontEnd/Assets/icon_store.png" 
+            alt="Icon_store"
+            class="store-image"/>  
+              
+            <div class="form-content">
+                <h2 class="text-2xl mb-4 text-white font-bold">Masuk ke Akun</h2>
+                <form class="space-y-4">
+                    <input type="email" placeholder="E-Mail" class="input-field"/>
+                    <input type="password" placeholder="Kata Sandi" class="input-field"/>
+                    <p class="forgot-password">
+                        <a href="/Techstore/FrontEnd/HTML/Login_Registrasi/Reset.html" class="forgot-password-link">Lupa Kata Sandi?</a>
+                    </p>
+                    <button type="submit" class="btn-submit" >
+                        <a href="/Techstore/FrontEnd/HTML/Mainpage/Homepage.html" target="_blank" class="Login-link">Masuk</a>
+                    </button>
+                    <p class="register-text">Belum punya akun?  
+                        <a href="Registrasi.html" class="register-link">Daftar</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

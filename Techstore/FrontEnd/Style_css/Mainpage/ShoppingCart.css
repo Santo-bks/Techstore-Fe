@@ -1,0 +1,180 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #00e8ff;
+  }
+  
+  .navbar-brand, .h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #005eff !important;
+  }
+  
+  .search-bar {
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    padding: 8px 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar:focus {
+    outline: none;
+  }
+  
+  .nav-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+    display: flex;
+}
+.main-content {
+    width: 66.67%;
+    margin-right: 16px;
+}
+
+.right-column {
+    width: 33.33%;
+    height: 222px;
+    background-color: #06b6d4;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #06b6d4;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.card .left {
+    display: flex;
+    align-items: center;
+}
+
+.card .left input {
+    margin-right: 8px;
+}
+
+.card .left .store-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Teks rata kiri */
+}
+
+.card .left .store-info .store-name {
+    font-weight: bold;
+    color: white;
+    text-align: left; /* Nama toko rata kiri */
+}
+
+.card .left .store-info .product-info {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.card .left .store-info .product-info img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.card .left .store-info .product-info .product-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Informasi produk rata kiri */
+}
+
+.card .left .store-info .product-info .product-details span {
+    color: white;
+}
+
+.card .right {
+    display: flex;
+    align-items: center;
+}
+
+.card .right button {
+    background-color: white;
+    color: black;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card .right span {
+    background-color: white;
+    color: black;
+    padding: 4px 16px;
+}
+
+.right-column span {
+    color: white;
+}
+
+.right-column .total-price {
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-top: 8px;
+}
+
+.right-column button {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+/* Baru: Memastikan teks dan elemen di kanan tetap rata kanan */
+.card {
+    justify-content: space-between;
+}
+
+.card .right {
+    margin-left: auto; /* Menjaga elemen kanan seperti - 1 + dan Hapus tetap di kanan */
+}
+
+.card .right button {
+    border-radius: 4px;
+}
+
+
+.product-section {
+    margin-top: 50px;
+    border: 2px solid #29D1F7;
+    background-color: #29D1F7;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+  }
